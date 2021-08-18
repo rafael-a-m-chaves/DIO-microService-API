@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    config:
+      uri: http://ec2-18-218-251-25.us-east-2.compute.amazonaws.com:8888
+      enabled: true
+      fail-fast: true
